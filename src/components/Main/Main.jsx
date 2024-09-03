@@ -1,10 +1,10 @@
 import './Main.scss'
 
 // Components
-import GridItem from '../GridItem/GridItem';
-import Separator from '../Separator/Separator';
-import GridHeader from '../GridHeader/GridHeader';
-import GridOptions from '../GridOptions/GridOptions';
+import GridItem from '../GridItem/GridItem'
+import Separator from '../Separator/Separator'
+import GridHeader from '../GridHeader/GridHeader'
+import GridOptions from '../GridOptions/GridOptions'
 
 function Main() {
     return (

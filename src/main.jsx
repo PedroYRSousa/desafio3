@@ -4,4 +4,4 @@ import App from './App.jsx'
 
 import "../global.scss"
 
-createRoot(document.getElementById('root')).render(<App />);
+createRoot(document.getElementById('root')).render(<App />)

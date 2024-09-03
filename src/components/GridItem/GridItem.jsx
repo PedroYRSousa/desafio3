@@ -1,9 +1,9 @@
 import './GridItem.scss'
 
 // SVGs
-import editSVG from '../../assets/edit.svg';
-import deleteSVG from '../../assets/delete.svg';
-import checkBoxSVG from '../../assets/check_box.svg';
+import editSVG from '../../assets/edit.svg'
+import deleteSVG from '../../assets/delete.svg'
+import checkBoxSVG from '../../assets/check_box.svg'
 
 function GridItem() {
     return (
@@ -12,7 +12,7 @@ function GridItem() {
             <div className='d-flex jc-center grid-container-item-item'>
                 <button className='buttom grid-container-item-plus'>
                     <img src={checkBoxSVG} />
-                </button>   
+                </button>
             </div>
             <div className='d-flex jc-end grid-container-item-item'>
                 <div>
