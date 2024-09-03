@@ -1,9 +1,8 @@
-.grid {
+.grid-header {
     width: 656px;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    .grid-item {
+    .grid-header-item {
         width: 100%;
     }
 }
