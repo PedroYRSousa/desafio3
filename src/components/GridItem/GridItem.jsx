@@ -1,17 +1,22 @@
 import './GridItem.scss'
 
+// Entities
+import Task from '../../entity/task'
+
 // SVGs
 import editSVG from '../../assets/edit.svg'
 import deleteSVG from '../../assets/delete.svg'
 import checkBoxSVG from '../../assets/check_box.svg'
+import checkBoxBlankSVG from '../../assets/check_box_blank.svg'
 
-function GridItem() {
+function GridItem({ task }) {
+
     return (
         <div className='al-center d-grid grid-container-item'>
-            <div className='d-flex grid-container-item-item'><p className='t-item-grid'>Nome</p></div>
+            <div className='d-flex grid-container-item-item'><p className='t-item-grid'>{task.name}</p></div>
             <div className='d-flex jc-center grid-container-item-item'>
                 <button className='buttom grid-container-item-plus'>
-                    <img src={checkBoxSVG} />
+                    <img src={task.status ? checkBoxSVG : checkBoxBlankSVG} />
                 </button>
             </div>
             <div className='d-flex jc-end grid-container-item-item'>
@@ -29,5 +34,9 @@ function GridItem() {
         </div>
     )
 }
+
+GridItem.propTypes = {
+    task: Task,
+};
 
 export default GridItem
