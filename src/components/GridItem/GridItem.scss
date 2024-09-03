@@ -1,0 +1,18 @@
+.grid-container-item {
+    width: 647px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .grid-container-item-item {
+        width: 100%;
+    }
+
+    .grid-container-item-option {
+        width: 35px;
+        height: 30px;
+    }
+
+    .grid-container-item-plus {
+        width: 24px;
+        height: 24px;
+    }
+}
