@@ -8,11 +8,11 @@ import Separator from '../Separator/Separator';
 
 function Main() {
     return (
-        <main style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <main className='d-flex al-center fc-center main-container'>
             <section>
-                <h1 className='t-header-grid' style={{ marginBottom: '126px' }}>Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
+                <h1 className='t-header-grid header-grid'>Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
 
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <div className='d-flex al-center grid'>
                     <GridHeader />
                     <Separator />
                     <GridItem />
