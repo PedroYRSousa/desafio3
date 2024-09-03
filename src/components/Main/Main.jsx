@@ -8,7 +8,7 @@ import GridOptions from '../GridOptions/GridOptions';
 
 function Main() {
     return (
-        <main className='d-flex al-center fc-center main-container'>
+        <main className='d-flex al-center jc-center main-container'>
             <section>
                 <h1 className='t-header-grid header-grid'>Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
 
