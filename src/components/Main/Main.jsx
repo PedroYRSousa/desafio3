@@ -12,7 +12,7 @@ function Main() {
             <section>
                 <h1 className='t-header-grid header-grid'>Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
 
-                <div className='d-flex al-center grid'>
+                <div className='d-flex al-center grid-container'>
                     <GridHeader />
                     <Separator />
                     <GridItem />
