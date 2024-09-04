@@ -4,6 +4,11 @@
 
     .grid-container-item-item {
         width: 100%;
+        overflow: hidden;
+
+        .grid-container-item-item-name {
+
+        }
     }
 
     .grid-container-item-option {

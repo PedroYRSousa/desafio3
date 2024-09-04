@@ -1,0 +1,526 @@
+[
+    {
+        "name": "Lavar a louça",
+        "status": false
+    },
+    {
+        "name": "Arrumar a cama",
+        "status": true
+    },
+    {
+        "name": "Fazer café",
+        "status": false
+    },
+    {
+        "name": "Alimentar o cachorro",
+        "status": false
+    },
+    {
+        "name": "Regar as plantas",
+        "status": false
+    },
+    {
+        "name": "Responder e-mails",
+        "status": false
+    },
+    {
+        "name": "Fazer compras no mercado",
+        "status": false
+    },
+    {
+        "name": "Passear com o cachorro",
+        "status": false
+    },
+    {
+        "name": "Limpar o quarto",
+        "status": false
+    },
+    {
+        "name": "Estudar uma hora",
+        "status": false
+    },
+    {
+        "name": "Ler um capítulo do livro",
+        "status": false
+    },
+    {
+        "name": "Exercícios de alongamento",
+        "status": false
+    },
+    {
+        "name": "Preparar o almoço",
+        "status": false
+    },
+    {
+        "name": "Dobrar as roupas",
+        "status": false
+    },
+    {
+        "name": "Pagar as contas",
+        "status": false
+    },
+    {
+        "name": "Organizar a estante",
+        "status": false
+    },
+    {
+        "name": "Limpar a geladeira",
+        "status": false
+    },
+    {
+        "name": "Trocar a roupa de cama",
+        "status": false
+    },
+    {
+        "name": "Fazer backup dos arquivos",
+        "status": false
+    },
+    {
+        "name": "Atualizar o antivírus",
+        "status": false
+    },
+    {
+        "name": "Limpar o banheiro",
+        "status": false
+    },
+    {
+        "name": "Lavar o carro",
+        "status": false
+    },
+    {
+        "name": "Recolher o lixo",
+        "status": false
+    },
+    {
+        "name": "Preparar o jantar",
+        "status": false
+    },
+    {
+        "name": "Limpar a cozinha",
+        "status": false
+    },
+    {
+        "name": "Trocar lâmpadas queimadas",
+        "status": false
+    },
+    {
+        "name": "Descongelar o freezer",
+        "status": false
+    },
+    {
+        "name": "Lavar as roupas",
+        "status": false
+    },
+    {
+        "name": "Passar roupas",
+        "status": false
+    },
+    {
+        "name": "Organizar o guarda-roupa",
+        "status": false
+    },
+    {
+        "name": "Agendar consulta médica",
+        "status": false
+    },
+    {
+        "name": "Fazer lista de compras",
+        "status": false
+    },
+    {
+        "name": "Aspirar a casa",
+        "status": false
+    },
+    {
+        "name": "Desempacotar caixas",
+        "status": false
+    },
+    {
+        "name": "Guardar alimentos",
+        "status": false
+    },
+    {
+        "name": "Limpar vidros",
+        "status": false
+    },
+    {
+        "name": "Trocar toalhas",
+        "status": false
+    },
+    {
+        "name": "Preparar café da manhã",
+        "status": false
+    },
+    {
+        "name": "Pagar o aluguel",
+        "status": false
+    },
+    {
+        "name": "Levar o carro para revisão",
+        "status": false
+    },
+    {
+        "name": "Lavar o quintal",
+        "status": false
+    },
+    {
+        "name": "Podar as árvores",
+        "status": false
+    },
+    {
+        "name": "Trocar as pilhas do controle remoto",
+        "status": false
+    },
+    {
+        "name": "Organizar a despensa",
+        "status": false
+    },
+    {
+        "name": "Limpar o fogão",
+        "status": false
+    },
+    {
+        "name": "Separar roupas para doação",
+        "status": false
+    },
+    {
+        "name": "Verificar nível do óleo do carro",
+        "status": false
+    },
+    {
+        "name": "Colocar roupa para secar",
+        "status": false
+    },
+    {
+        "name": "Cozinhar arroz",
+        "status": false
+    },
+    {
+        "name": "Comprar ração para o gato",
+        "status": false
+    },
+    {
+        "name": "Arrumar a mesa",
+        "status": false
+    },
+    {
+        "name": "Desentupir o ralo",
+        "status": false
+    },
+    {
+        "name": "Trocar as baterias do relógio",
+        "status": false
+    },
+    {
+        "name": "Lavar as janelas",
+        "status": false
+    },
+    {
+        "name": "Limpar o micro-ondas",
+        "status": false
+    },
+    {
+        "name": "Colocar a roupa na máquina",
+        "status": false
+    },
+    {
+        "name": "Lixar as unhas",
+        "status": false
+    },
+    {
+        "name": "Cuidar das finanças pessoais",
+        "status": false
+    },
+    {
+        "name": "Destralhar a casa",
+        "status": false
+    },
+    {
+        "name": "Limpar os ventiladores",
+        "status": false
+    },
+    {
+        "name": "Arrumar o jardim",
+        "status": false
+    },
+    {
+        "name": "Separar o lixo reciclável",
+        "status": false
+    },
+    {
+        "name": "Limpar o filtro do ar-condicionado",
+        "status": false
+    },
+    {
+        "name": "Fazer bolo",
+        "status": false
+    },
+    {
+        "name": "Tirar o pó dos móveis",
+        "status": false
+    },
+    {
+        "name": "Recolher a roupa seca",
+        "status": false
+    },
+    {
+        "name": "Consertar uma tomada",
+        "status": false
+    },
+    {
+        "name": "Limpar o espelho",
+        "status": false
+    },
+    {
+        "name": "Organizar o escritório",
+        "status": false
+    },
+    {
+        "name": "Trocar a água das plantas",
+        "status": false
+    },
+    {
+        "name": "Fazer um lanche",
+        "status": false
+    },
+    {
+        "name": "Colocar a mesa para o jantar",
+        "status": false
+    },
+    {
+        "name": "Separar papéis para reciclagem",
+        "status": false
+    },
+    {
+        "name": "Pintar uma parede",
+        "status": false
+    },
+    {
+        "name": "Trocar o saco do aspirador",
+        "status": false
+    },
+    {
+        "name": "Lavar as toalhas de banho",
+        "status": false
+    },
+    {
+        "name": "Passar o aspirador no sofá",
+        "status": false
+    },
+    {
+        "name": "Limpar o chão da cozinha",
+        "status": false
+    },
+    {
+        "name": "Afiar facas",
+        "status": false
+    },
+    {
+        "name": "Trocar as capas das almofadas",
+        "status": false
+    },
+    {
+        "name": "Organizar os documentos",
+        "status": false
+    },
+    {
+        "name": "Lavar o tapete",
+        "status": false
+    },
+    {
+        "name": "Remover manchas da roupa",
+        "status": false
+    },
+    {
+        "name": "Cuidar do jardim",
+        "status": false
+    },
+    {
+        "name": "Consertar o chuveiro",
+        "status": false
+    },
+    {
+        "name": "Arrumar a sala",
+        "status": false
+    },
+    {
+        "name": "Limpar o teclado do computador",
+        "status": false
+    },
+    {
+        "name": "Separar os brinquedos das crianças",
+        "status": false
+    },
+    {
+        "name": "Planejar a semana",
+        "status": false
+    },
+    {
+        "name": "Guardar as compras",
+        "status": false
+    },
+    {
+        "name": "Cozinhar legumes",
+        "status": false
+    },
+    {
+        "name": "Fazer um chá",
+        "status": false
+    },
+    {
+        "name": "Limpar o tapete da entrada",
+        "status": false
+    },
+    {
+        "name": "Trocar a lâmpada do banheiro",
+        "status": false
+    },
+    {
+        "name": "Revisar o estoque da despensa",
+        "status": false
+    },
+    {
+        "name": "Trocar a fronha",
+        "status": false
+    },
+    {
+        "name": "Limpar o varal",
+        "status": false
+    },
+    {
+        "name": "Conferir o estoque de alimentos",
+        "status": false
+    },
+    {
+        "name": "Agendar a revisão do carro",
+        "status": false
+    },
+    {
+        "name": "Molhar as plantas",
+        "status": false
+    },
+    {
+        "name": "Arrumar o armário da cozinha",
+        "status": false
+    },
+    {
+        "name": "Organizar o corredor",
+        "status": false
+    },
+    {
+        "name": "Cuidar da iluminação",
+        "status": false
+    },
+    {
+        "name": "Fazer sobremesa",
+        "status": false
+    },
+    {
+        "name": "Recolher os brinquedos",
+        "status": false
+    },
+    {
+        "name": "Separar as contas pagas",
+        "status": false
+    },
+    {
+        "name": "Limpar a área de serviço",
+        "status": false
+    },
+    {
+        "name": "Lustrar os móveis",
+        "status": false
+    },
+    {
+        "name": "Passar pano no chão",
+        "status": false
+    },
+    {
+        "name": "Organizar a lavanderia",
+        "status": false
+    },
+    {
+        "name": "Lavar o banheiro",
+        "status": false
+    },
+    {
+        "name": "Colocar o lixo para fora",
+        "status": false
+    },
+    {
+        "name": "Lavar as almofadas",
+        "status": false
+    },
+    {
+        "name": "Trocar a água do aquário",
+        "status": false
+    },
+    {
+        "name": "Conferir as tarefas do dia",
+        "status": false
+    },
+    {
+        "name": "Fazer uma caminhada",
+        "status": false
+    },
+    {
+        "name": "Arrumar os sapatos",
+        "status": false
+    },
+    {
+        "name": "Limpar a prateleira",
+        "status": false
+    },
+    {
+        "name": "Trocar o lençol",
+        "status": false
+    },
+    {
+        "name": "Verificar a despensa",
+        "status": false
+    },
+    {
+        "name": "Fazer alongamento",
+        "status": false
+    },
+    {
+        "name": "Organizar o quarto das crianças",
+        "status": false
+    },
+    {
+        "name": "Limpar a garagem",
+        "status": false
+    },
+    {
+        "name": "Trocar a areia do gato",
+        "status": false
+    },
+    {
+        "name": "Organizar os CDs e DVDs",
+        "status": false
+    },
+    {
+        "name": "Afiar os alicates",
+        "status": false
+    },
+    {
+        "name": "Limpar o parapeito da janela",
+        "status": false
+    },
+    {
+        "name": "Organizar os sapatos",
+        "status": false
+    },
+    {
+        "name": "Verificar a caixa de correio",
+        "status": false
+    },
+    {
+        "name": "Guardar os livros",
+        "status": false
+    },
+    {
+        "name": "Arrumar a mesa do escritório",
+        "status": false
+    }
+]

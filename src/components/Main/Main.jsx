@@ -1,12 +1,30 @@
+import { useState } from 'react'
+
 import './Main.scss'
 
 // Components
-import GridItem from '../GridItem/GridItem'
+import GridListItens from '../GridListItens/GridListItens'
 import Separator from '../Separator/Separator'
 import GridHeader from '../GridHeader/GridHeader'
 import GridOptions from '../GridOptions/GridOptions'
 
+// Mock
+import TasksMock from '../../mock.json'
+
+
 function Main() {
+    const [tasks, setTasks] = useState([TasksMock[0], TasksMock[1]]);
+
+    const newItem = () => {
+        const newTask = TasksMock[Math.floor(Math.random() * (TasksMock.length - 1))]
+
+        setTasks([...tasks, newTask]);
+    }
+
+    const removeItem = (index) => {
+        setTasks(tasks.filter((_, i) => i != index));
+    }
+
     return (
         <main className='d-flex al-center jc-center main-container'>
             <section>
@@ -15,8 +33,8 @@ function Main() {
                 <div className='d-flex al-center grid-container'>
                     <GridHeader />
                     <Separator />
-                    <GridItem />
-                    <GridOptions />
+                    <GridListItens tasks={tasks} removeItemCallback={removeItem} />
+                    <GridOptions newItemCallback={newItem} />
                 </div>
             </section>
         </main>
