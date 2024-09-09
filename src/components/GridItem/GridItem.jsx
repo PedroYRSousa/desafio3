@@ -9,8 +9,8 @@ import deleteSVG from '../../assets/delete.svg'
 import checkBoxSVG from '../../assets/check_box.svg'
 import checkBoxBlankSVG from '../../assets/check_box_blank.svg'
 
-function GridItem({ task, removeItemCallback }) {
-    const [name, ] = useState(task.name)
+function GridItem({ task, editItemCallback, removeItemCallback }) {
+    const [name,] = useState(task.name)
     const [status, setStatus] = useState(task.status)
 
     const editStatus = () => {
@@ -18,13 +18,8 @@ function GridItem({ task, removeItemCallback }) {
         setStatus(task.status)
     }
 
-    const edit = () => {
-
-    }
-
-    const remove = () => {
-        removeItemCallback();
-    }
+    const edit = () => editItemCallback();
+    const remove = () => removeItemCallback();
 
     return (
         <div className='al-center d-grid grid-container-item'>
@@ -56,6 +51,7 @@ function GridItem({ task, removeItemCallback }) {
 
 GridItem.propTypes = {
     task: PropTypes.any,
+    editItemCallback: PropTypes.func,
     removeItemCallback: PropTypes.func
 };
 

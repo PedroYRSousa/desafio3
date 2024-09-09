@@ -5,7 +5,7 @@
     margin: 0;
     border: 0;
     outline: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -105,6 +105,11 @@ button {
     display: flex;
 }
 
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .d-grid {
     display: grid;
 }
@@ -158,6 +163,30 @@ button {
     font-weight: 400;
     line-height: 44.61px;
     text-align: center;
+}
+
+.t-button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35.22px;
+    text-align: left;
+}
+
+.t-modal-element-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 41.09px;
+    text-align: left;
+}
+
+.t-modal-element-task-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.35px;
+    text-align: left;
 }
 
 /* General */
